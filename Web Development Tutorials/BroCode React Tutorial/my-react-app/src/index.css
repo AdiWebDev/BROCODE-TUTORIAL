@@ -1,0 +1,351 @@
+body {
+  margin: 0;
+                /* Full screen height */
+  display: flex;
+  justify-content: center;        /* Center horizontally */
+  align-items: center;      
+  background-color: hsl(0, 0%, 90%);       /* Center vertically */
+}
+
+.card{ 
+  border: 1px solid rgba(0, 0%, 80%);
+  border-radius: 10px; 
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); 
+  padding:20px; 
+  margin: 10px;
+  text-align: center;
+  max-width: 250px; 
+  display: inline-block; 
+}
+
+.card .card-image{ 
+  max-width: 20%; 
+  height: auto; 
+ border-radius: 90%; 
+}
+.card .card-title{ 
+  font-family: Arial,sans-serif; 
+  margin: 0;
+  color: rgb(0, 0, 20%); 
+} 
+.card .card-text{ 
+  font-family: Arial,sans-serif; 
+  color: rgb(0, 0, 30%);
+} 
+
+
+a{ 
+  text-decoration: none;
+} 
+
+.nav-container{ 
+  width: 100%;
+   display: flex;
+  padding-left: 20%;
+} 
+.nav-links{ 
+  margin-right: 2%; 
+  position: relative; 
+  left: 20%;
+} 
+
+.student{ 
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 20px;
+  border: solid 1px;
+} 
+
+.student p { 
+  margin: 0;
+} 
+
+.welcome-message{ 
+  font-size: 2.5em; 
+  background-color: green; 
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+
+.login-prompt { 
+    font-size: 2.5em; 
+  background-color: red; 
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+} 
+
+.list-category{ 
+  font-size: 2.5em;
+  font-weight: bold;
+  color: rgb(0, 0, 30); 
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: tomato;
+} 
+
+.list-items{ 
+ font-size: 2.5em; 
+ list-style: none; 
+ color: rgb(0, 0, 20);  
+ text-align: center;
+ margin: 0;
+} 
+
+.list-items li:hover{ 
+  color: rgb(31, 31, 136);; 
+  cursor: pointer;
+}
+
+.button{ 
+  margin: 0;
+  position: relative ;
+  left: 50%; 
+  padding: 20px; 
+  background-color: tomato;
+} 
+
+.counter-container { 
+  text-align: center; 
+  font-family: Arial, Helvetica, sans-serif;
+} 
+.count-display{ 
+  font-size: 10em; 
+  margin-top: 0; 
+  margin-bottom: 50px;
+} 
+.counter-button{ 
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: rgb(49, 139, 139); 
+  color: white; 
+  border: none; 
+  border-radius: 6px; 
+  cursor: pointer;
+} 
+.counter-button:hover{ 
+  background-color: rgb(19, 53, 42);
+} 
+
+.color-picker-container{ 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center;
+} 
+.color-display{ 
+  width: 300px;
+  height: 300px; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  border: solid 1px grey ; 
+  border-radius: 25px; 
+  margin-bottom: 25px; 
+  transition: 0.25s ease;
+} 
+
+.color-display p{ 
+  font-size: 2rem;
+  text-align: center;
+} 
+
+
+.bacon-container {
+  display: flex;
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically */
+  width: 300px;
+  height: 150px;            /* ✅ Add height to enable vertical centering */
+  margin-top: 30px;
+  border: 1px solid black;
+  text-align: center; 
+
+  background-color: black; 
+  color: white; 
+
+} 
+ 
+.bacon-display:hover {
+  color: tomato;
+  transition: color 0.5s ease; /* Fixed */
+}
+
+
+
+.to-do-list{ 
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 100px;
+
+}
+
+.to-do-list h1{
+  font-size: 4rem;
+}
+
+
+.to-do-list button { 
+  font-size: 1.7rem; 
+  font-weight: bold;
+  padding: 10px 20px;
+  color: white;
+  border: none; 
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 05, ease; 
+  margin-left: 10px;
+}
+ 
+.add-button{ 
+  background-color: hsl(120, 47%, 54%) 
+} 
+
+.add-button:hover{ 
+ background-color: hsl(125, 47%, 44%)
+}
+
+.delete-button{ 
+  background-color: hsl(10, 90%, 54%);
+}
+
+.delete-button:hover{ 
+  background-color: hsl(120, 90%, 54%);
+}
+
+.move-button{ 
+  background-color: hsl(207, 90%, 64%);
+}
+
+.move-button:hover{ 
+  background-color: hsl(10, 90%, 54%);
+} 
+
+.input-todo{ 
+  font-size: 1.6rem;
+  padding: 10px; 
+  border: 2px solid hsla(0, 0%, 80%, 00.5s); 
+} 
+
+ol{ 
+  padding: 0;
+}  
+
+
+li{ 
+  font-size: 2rem; 
+  font-weight: bold; 
+  padding: 15px;
+  background-color: hsl(0, 0%, 80%); 
+  border: solid 3px hsla(0, 0%, 80%, 0.75s); 
+  list-style: none;
+  margin-bottom: 10px; 
+  border-radius: 5px; 
+  display: flex; 
+  align-items: center;
+} 
+.text{ 
+  flex: 1;
+} 
+
+.clock-container{ 
+  width: 80vw;  
+  height: 40vh;
+  padding: 10px 0px;
+  text-align: center; 
+  justify-content: center; 
+  border: solid 2px black; 
+background: black;
+}
+.clock{ 
+  color: white; 
+  font-size: 3rem; 
+  font-weight: bold; 
+  font-family: monospace;
+}
+.clock-container p{ 
+  color: white; 
+  font-size: 2rem; 
+  font-weight: bold; 
+  font-family: monospace;
+} 
+
+.box-component{  
+  margin-top: 30px; 
+  padding: 25px;
+  border: solid 3px black;
+} 
+
+
+.stopwatch-container{ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 5px solid;
+  border-radius: 50px;
+  background-color: white;
+  padding: 30px;  
+  justify-content: center; 
+  margin-top: 30px;
+} 
+.display-time{ 
+  font-size: 5rem; 
+  font-family: monospace; 
+  text-shadow: 2px 2px 2px 22px hsla(0, 0%, 0%, 0.75); 
+  color:  hsl(0, 0%, 30%); 
+  font-weight: bold; 
+  margin-bottom: 30px;
+}
+.stopwatch-controls { 
+  display: flex;
+}
+.stopwatch-controls .stopwatch-button{ 
+ font-size: 1.5rem; 
+font-weight: bold; 
+padding:  10px 20px; 
+margin: 5px; 
+min-width: 125px; 
+border: none; 
+border-radius: 10px; 
+cursor: pointer; 
+color: white; 
+text-align: center;
+transition: bakcground-color 0.5s ease;
+}  
+
+
+#start-button { 
+  background-color: hsl(115, 100%, 40%);
+} 
+
+
+#start-button:hover { 
+  background-color: hsl(115, 100%, 35%);
+}
+
+
+#stop-button { 
+  background-color: hsl(10, 100%, 40%);
+} 
+
+
+#stop-button:hover { 
+  background-color: hsl(10, 100%, 35%);
+}
+
+#reset-button { 
+  background-color: hsl(232, 100%, 60%);
+} 
+
+
+#reset-button:hover { 
+  background-color: hsl(232, 100%, 55%);
+}
